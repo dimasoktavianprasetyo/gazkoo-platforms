@@ -1,0 +1,17 @@
+# Root gitignore for GazKoo Energy Platforms MVP-App
+.DS_Store
+Thumbs.db
+*.log
+.env
+.idea/
+.vscode/
+
+# Frontend build & dependencies
+frontend-layer/node_modules/
+frontend-layer/dist/
+frontend-layer/dist-ssr/
+
+# Backend build output
+backend-engine/target/
+backend-engine/build/
+
